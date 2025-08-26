@@ -13,3 +13,13 @@ describe("Stub: 決まった値を返す", () => {
   test("BooksRepository.isAvailable が false を返す = 会員ではないことを確認", () => {
   });
 });
+
+describe("Mock: 期待を満たすか検証（スパイ+アサーション）", () => {
+  test("booksRepository.borrowBook の spy + assertion", () => {
+  });
+});
+
+describe("Dummy: 呼ばれたらエラー", () => {
+  test("BooksRepository.isAvailable が false の時に.  booksRepository.borrowBook が呼ばれないことを確認", () => {
+  });
+});
