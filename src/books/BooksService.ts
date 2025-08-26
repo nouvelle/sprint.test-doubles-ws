@@ -3,7 +3,7 @@ import type { BooksRepository } from "@src/types/BooksRepository";
 /**
  * 図書館の「借りる」ユースケースを扱うサービス
  */
-export class BorrowService {
+export class BooksService {
   constructor(
     private readonly booksRepository: BooksRepository,
   ) {}
